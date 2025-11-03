@@ -100,12 +100,12 @@ def get_api_key():
     return api_key
 
 # Configuración de la página
-st.set_page_config(
-    page_title="Trading Dashboard - Secure", 
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# st.set_page_config(
+#     page_title="Trading Dashboard - Secure", 
+#     page_icon="📈",
+#     layout="wide",
+#     initial_sidebar_state="expanded"
+# )
 
 # CSS personalizado
 st.markdown("""

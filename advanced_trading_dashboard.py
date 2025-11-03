@@ -302,13 +302,13 @@ def display_stock_cards(analyses: List[StockAnalysis], title: str):
             </div>
             """, unsafe_allow_html=True)
 
-def main():
-    st.set_page_config(
-        page_title="Advanced Trading Dashboard", 
-        page_icon="📊",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+# def main():
+#     st.set_page_config(
+#         page_title="Advanced Trading Dashboard", 
+#         page_icon="📊",
+#         layout="wide",
+#         initial_sidebar_state="expanded"
+#     )
     
     st.title("📊 Advanced Trading Dashboard")
     st.markdown("*Análisis inteligente de carteras de inversión con screening automático*")
@@ -838,5 +838,5 @@ def main():
             with st.expander(f"{category} ({len(stocks)} acciones)"):
                 st.write(", ".join(stocks))
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
